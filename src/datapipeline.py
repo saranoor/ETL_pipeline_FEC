@@ -15,14 +15,14 @@ if __name__ == "__main__":
     
     client = boto3.client(
     's3',
-    aws_access_key_id='ASIASM62P7A5WWYRQZEN',
-    aws_secret_access_key='yozdm5nYYVEN3xKkoDytDiatfaojQ2OFANedSWgv')
+    aws_access_key_id='A******************N',
+    aws_secret_access_key='y******************************************')
 
     host="database-1.cgbyduz3lnxb.us-east-1.rds.amazonaws.com"
     port=3306
     dbname="FECData"
-    user="admin"
-    password="physiology62A"
+    user="***"
+    password="***"
     
     # creaitng connection to engine
     engine = create_engine('mysql+pymysql://' + user + ':'+ password + '@' + host + ':' + str(port) +'/' + dbname, echo=False)

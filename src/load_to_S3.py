@@ -41,8 +41,8 @@ def To_S3(all_urls):
     files_list =[]
     client = boto3.client(
     's3',
-    aws_access_key_id='ASIASM62P7A5WWYRQZEN',
-    aws_secret_access_key='yozdm5nYYVEN3xKkoDytDiatfaojQ2OFANedSWgv')
+    aws_access_key_id='A******************N',
+    aws_secret_access_key='y****************************************')
     
     try:
         for obj in client.list_objects_v2(Bucket= 'dataelection')['Contents']:
