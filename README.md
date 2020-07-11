@@ -19,3 +19,4 @@ https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 ### How to run:
 Use run.sh from src folder to run the ETL pipeline or simply run python3 datapipelin.py on EC2 instance
+ 
