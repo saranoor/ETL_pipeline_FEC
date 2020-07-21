@@ -6,7 +6,7 @@ Election Committees receive contributions all year round. There are four main so
 In this project, I have engineered a pipeline to store FEC data in S3 bucket, extract and transform the data in S3 using Python and loads the data into MySQL hosted on AMAZON Redshift. 
 
 ## Demo
-![Demo](demo/FEC_Analyzer_demo.gif | width=100)
+![Demo](demo/FEC_Analyzer_demo.gif){:height="50%" width="50%"}
 
 ## Technologies 
 - AWS: S3, EC2, Redshift
